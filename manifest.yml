@@ -1,0 +1,12 @@
+---
+applications:
+ - name: icumockup_react_scratch0
+   random-route: true
+   memory: 256M
+   domain: mybluemix.net
+   host: ICUMockupBluemix
+   instances: 1
+   timeout: 180
+   buildpack: nodejs_buildpack
+   command: null
+   

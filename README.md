@@ -1,4 +1,4 @@
-THIS PROJECT TESTS THE END-TO-END DEV-DEP CYCLE VIA BLUEMIX.
+THIS PROJECT TESTS THE END-TO-END DEV-DEP CYCLE VIA BLUEMIX.G
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
