@@ -8,11 +8,17 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <h2>Welcome to ICUMockup 01 on Bluemix</h2>
         </div>
-        <p className="App-intro">
+        <div className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+          <Switch>
+          	<Route exact path="/" component={Home}/>
+          	<Route path='/cns' compoment={CNS}/>
+          	<Route path='/cvs' component={CVS}/>
+          	<Route path='/resp' component={Resp}/>
+          </Switch>
+        </div>
       </div>
     );
   }
