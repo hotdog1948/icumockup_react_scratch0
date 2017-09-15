@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {Switch, Route} from 'react-router-dom';
+import Home from './pages/Home';
+import CNS from './pages/CNS';
+import CVS from './pages/CVS';
+import Resp from './pages/Resp';
 
 class App extends Component {
   render() {
